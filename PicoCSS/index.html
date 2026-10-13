@@ -220,28 +220,7 @@
                 <p>© 2026 Nike. Todos os direitos reservados.</p>
 
             </footer>
-
-            <!--Troca de Tema-->
-
-            <script>
-                const botaoTema = document.getElementById('tema');
-                const html = document.documentElement;
-                const logo = document.getElementById('logoNike');
-
-                botaoTema.addEventListener('click', () => {
-                    const temaAtual = html.getAttribute('data-theme');
-
-                    if (temaAtual === 'dark') {
-                        html.setAttribute('data-theme', 'light');
-                        logo.src = 'imgs/logo.svg';
-                    } else {
-                        html.setAttribute('data-theme', 'dark');
-                        logo.src = 'imgs/logo_nike.svg';
-                    }
-                });
-            </script>
-
-
+            <script src="script.js"></script>
     </body>
 
 </html>
