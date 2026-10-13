@@ -65,7 +65,16 @@ Abra a pasta do projeto no seu editor de código (como o VS Code).
 Utilize a extensão Live Server no VS Code ou abra o ficheiro index.html diretamente no seu navegador web favorito.
 
 👤 Autor
-Desenvolvido por Yago Dinato.
+Desenvolvido por:
+Yago Dinato
+Henrique Cabral
+Pedro Mendes
+Breno Garcia
+Juan Jorge
+Ewerton Porphirio
+Matheus Viotto
+Eric Neves 
+
 
 
 ---
