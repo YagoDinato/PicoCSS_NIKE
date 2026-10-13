@@ -22,7 +22,6 @@ Este projeto é uma página web inspirada na Nike, focada em performance, design
 
 ## ✨ Recursos
 
-* **Barra de Anúncios no Topo:** Aviso dinâmico de frete grátis adaptado ao tema atual.
 * **Alternância de Tema (Dark/Light):** Botão interativo para alternar o esquema de cores da página em tempo real.
 * **Troca Dinâmica de Logo:** A logo da marca adapta-se automaticamente para garantir visibilidade perfeita nos modos claro e escuro.
 * **Modal de Visualização Rápida (`<dialog>`):** Janela flutuante interativa ao clicar nos tênis, permitindo ver detalhes e escolher tamanhos sem sair da página.
