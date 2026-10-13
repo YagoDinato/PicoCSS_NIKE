@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos AIR FORCE</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+    <header class="container">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="imgs/logo.svg" alt="Logo NIKE" width="120px" id="logoNike">
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a href="#ofertas"><strong>Ofertas</strong></a></li>
+                <li><a href="#lancamentos"><strong>Lançamentos</strong></a></li>
+                <li><a href="#masculino"><strong>Masculino</strong></a></li>
+                <li><a href="#feminino"><strong>Feminino</strong></a></li>
+                <li><a href="#infantil"><strong>Infantil</strong></a></li>
+                <li><a href="#snkrs"><strong>SNKRS</strong></a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#buscar" aria-label="Pesquisar">⌕</a></li>
+                <li><a href="#favoritos" aria-label="Favoritos">♡</a></li>
+                <li><a href="#carrinho" aria-label="Sacola">♧</a></li>
+                <li>
+                    <button type="button" id="tema">
+                        ☾ Tema
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Produtos em destaque</h2>
+
+        <div class="grid">
+            <article>
+                <img src="imgs/airforce/airforce_1.avif" alt="Tênis Nike Air Force 1 branco" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Force 1 '07 Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 759,99 no Pix</strong>
+                    <del>R$ 799,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.7</small></p>
+
+                <p><strong>Mais Vendido</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/airforce/airforce_2.avif" alt="Tênis Nike Air Force 1 marrom" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Force 1 '07 WB Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 949,99 no Pix</strong>
+                    <del>R$ 999,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.7</small></p>
+
+                <p><strong>Mais Vendido</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/airforce/airforce_3.avif" alt="Tênis Nike Air Force 1 branco" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Force 1 '07 Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 759,99 no Pix</strong>
+                    <del>R$ 799,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.7</small></p>
+
+                <p><strong>Mais Vendido</strong></p>
+
+            </article>
+        </div>
+        <!--Segundas leva de CARDS-->
+        <div class="grid">
+            <article>
+                <img src="imgs/airforce/airforce_4.avif" alt="Tênis Nike Air Force 1 '07 Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Force 1 '07 Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 759,99 no Pix</strong>
+                    <del>R$ 799,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>5.0</small></p>
+
+                <p><strong>Mais Vendido</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/airforce/airforce_5.avif" alt="Tênis Nike Air Force 1 '07 Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Force 1 '07 Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 759,99 no Pix</strong>
+                    <del>R$ 799,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.7</small></p>
+
+                <p><strong>Mais Vendido</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/airforce/airforce_6.avif" alt="NIKE SB AIR FORCE 1 YUTO" width="100%">
+
+                <hgroup>
+                    <h3>NIKE SB AIR FORCE 1 YUTO</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 899,99 no Pix</strong>
+                    <del>R$ 999,99</del>
+                    <strong>10% off</strong>
+                </p>
+
+                <p>★★★★★ <small>5.0</small></p>
+
+                <p><strong>Mais Vendido</strong></p>
+            </article>
+        </div>
+    </main>
+
+    <!--Troca de Tema-->
+    <script>
+        const botaoTema = document.getElementById('tema');
+        const html = document.documentElement;
+        const logo = document.getElementById('logoNike');
+
+        botaoTema.addEventListener('click', () => {
+            const temaAtual = html.getAttribute('data-theme');
+
+            if (temaAtual === 'dark') {
+                html.setAttribute('data-theme', 'light');
+                logo.src = 'imgs/logo.svg';
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                logo.src = 'imgs/logo_nike.svg';
+            }
+        });
+    </script>
+</body>
+
+</html>

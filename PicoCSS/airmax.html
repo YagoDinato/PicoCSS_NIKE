@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Air Max</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+    <header class="container">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="imgs/logo.svg" alt="Logo NIKE" width="120px" id="logoNike">
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a href="#ofertas"><strong>Ofertas</strong></a></li>
+                <li><a href="#lancamentos"><strong>Lançamentos</strong></a></li>
+                <li><a href="#masculino"><strong>Masculino</strong></a></li>
+                <li><a href="#feminino"><strong>Feminino</strong></a></li>
+                <li><a href="#infantil"><strong>Infantil</strong></a></li>
+                <li><a href="#snkrs"><strong>SNKRS</strong></a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#buscar" aria-label="Pesquisar">⌕</a></li>
+                <li><a href="#favoritos" aria-label="Favoritos">♡</a></li>
+                <li><a href="#carrinho" aria-label="Sacola">♧</a></li>
+                <li>
+                    <button type="button" id="tema">
+                        ☾ Tema
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Produtos em destaque</h2>
+
+        <div class="grid">
+            <article>
+                <img src="imgs/max/airmax_1.avif" alt="Tênis Nike Air Max Excee Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Max Excee Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 531,99 no Pix</strong>
+                    <del>R$ 799,99</del>
+                    <strong>34% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.2</small></p>
+
+                <p><strong>Cupom MAIS15OFF</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/max/airmax_2.avif" alt="Tênis Nike Air Max Nuaxis Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Max Nuaxis Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 503,49 no Pix</strong>
+                    <del>R$ 599,99</del>
+                    <strong>16% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.4</small></p>
+
+                <p><strong>Cupom MAIS15OFF</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/max/airmax_3.avif" alt="Tênis Nike Air Max Plus Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Max Plus Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 1.329,99 no Pix</strong>
+                    <del>R$ 1.399,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p><strong>Cupom MAIS15OFF</strong></p>
+            </article>
+        </div>
+
+        <!--Segunda leva de CARDS-->
+        <div class="grid">
+            <article>
+                <img src="imgs/max/airmax_4.avif" alt="Chinelo Nike Air Max Cirro Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Chinelo Nike Air Max Cirro Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 379,99 no Pix</strong>
+                    <del>R$ 399,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★ <small>4.0</small></p>
+
+            </article>
+
+            <article>
+                <img src="imgs/max/airmax_5.avif" alt="Tênis Nike Air Max DN Masculino" width="100%">
+
+                <hgroup>
+                    <h3>TTênis Nike Air Max DN Masculino</h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 1.348,99 no Pix</strong>
+                    <del>R$ 1499,99</del>
+                    <strong>10% off</strong>
+                </p>
+
+                <p>★★★★★ <small>5.0</small></p>
+
+                <p><strong>Cupom MAIS15OFF</strong></p>
+            </article>
+
+            <article>
+                <img src="imgs/max/airmax_6.avif" alt="Tênis Nike Air Max Invigor Masculino" width="100%">
+
+                <hgroup>
+                    <h3>Tênis Nike Air Max Invigor Masculino</h3>
+                    <p>Basquete</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 664,99 no Pix</strong>
+                    <del>R$ 699,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.1</small></p>
+
+                <p><strong>Cupom MAIS15OFF</strong></p>
+            </article>
+        </div>
+    </main>
+
+    <!--Troca de Tema-->
+    <script>
+        const botaoTema = document.getElementById('tema');
+        const html = document.documentElement;
+        const logo = document.getElementById('logoNike');
+
+        botaoTema.addEventListener('click', () => {
+            const temaAtual = html.getAttribute('data-theme');
+
+            if (temaAtual === 'dark') {
+                html.setAttribute('data-theme', 'light');
+                logo.src = 'imgs/logo.svg';
+            } else {
+                html.setAttribute('data-theme', 'dark');
+                logo.src = 'imgs/logo_nike.svg';
+            }
+        });
+    </script>
+</body>
+
+</html>
