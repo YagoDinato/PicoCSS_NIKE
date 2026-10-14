@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Jordan</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+
+<body>
+    <header class="container">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <img src="imgs/logo.svg" alt="Logo NIKE" width="120px" id="logoNike">
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li><a href="index.html#ofertas"><strong>Ofertas</strong></a></li>
+                <li><a href="index.html#lancamentos"><strong>Lançamentos</strong></a></li>
+                <li><a href="index.html#masculino"><strong>Masculino</strong></a></li>
+                <li><a href="index.html#feminino"><strong>Feminino</strong></a></li>
+                <li><a href="index.html#infantil"><strong>Infantil</strong></a></li>
+                <li><a href="index.html#snkrs"><strong>SNKRS</strong></a></li>
+            </ul>
+
+            <ul>
+                <li><a href="#buscar" aria-label="Pesquisar">⌕</a></li>
+                <li><a href="#favoritos" aria-label="Favoritos">♡</a></li>
+                <li><a href="#carrinho" aria-label="Sacola">♧</a></li>
+                <li>
+                    <button type="button" id="tema">
+                        ☾ Tema
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Produtos em destaque</h2>
+
+        <!-- Primeira leva de CARDS -->
+        <div class="grid">
+
+            <!-- Card 1 -->
+            <article>
+                <a href="#" onclick="abrirModal('modal-jordan-1'); return false;">
+                    <img src="imgs/jordan/jordan_1.avif" alt="Tênis Air Jordan 1 Low Masculino" width="100%">
+                </a>
+
+                <hgroup>
+                    <h3><a href="#" onclick="abrirModal('modal-jordan-1'); return false;">Tênis Air Jordan 1 Low
+                            Masculino</a></h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 1.044,99 no Pix</strong>
+                    <del>R$ 1.099,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.6</small></p>
+            </article>
+
+            <!-- Card 2 -->
+            <article>
+                <a href="#" onclick="abrirModal('modal-jordan-2'); return false;">
+                    <img src="imgs/jordan/jordan_2.avif" alt="Women's Air Jordan 1 Low" width="100%">
+                </a>
+
+                <hgroup>
+                    <h3><a href="#" onclick="abrirModal('modal-jordan-2'); return false;">Women's Air Jordan 1 Low</a>
+                    </h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 799,99 no Pix</strong>
+                    <del>R$ 1.099,99</del>
+                    <strong>27% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.7</small></p>
+            </article>
+
+            <!-- Card 3 -->
+            <article>
+                <a href="#" onclick="abrirModal('modal-jordan-3'); return false;">
+                    <img src="imgs/jordan/jordan_3.avif" alt="Tênis Air Jordan 1 Low Feminino" width="100%">
+                </a>
+
+                <hgroup>
+                    <h3><a href="#" onclick="abrirModal('modal-jordan-3'); return false;">Tênis Air Jordan 1 Low
+                            Feminino</a></h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 1.044,99 no Pix</strong>
+                    <del>R$ 1.099,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.5</small></p>
+            </article>
+        </div>
+
+        <!-- Segunda leva de CARDS -->
+        <div class="grid">
+
+            <!-- Card 4 -->
+            <article>
+                <a href="#" onclick="abrirModal('modal-jordan-4'); return false;">
+                    <img src="imgs/jordan/jordan_4.avif" alt="Tênis Air Jordan 1 Low Masculino" width="100%">
+                </a>
+
+                <hgroup>
+                    <h3><a href="#" onclick="abrirModal('modal-jordan-4'); return false;">Tênis Air Jordan 1 Low
+                            Masculino</a></h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 1.044,99 no Pix</strong>
+                    <del>R$ 1.099,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.7</small></p>
+            </article>
+
+            <!-- Card 5 -->
+            <article>
+                <a href="#" onclick="abrirModal('modal-jordan-5'); return false;">
+                    <img src="imgs/jordan/jordan_5.avif" alt="Tênis Air Jordan 1 Low Masculino" width="100%">
+                </a>
+
+                <hgroup>
+                    <h3><a href="#" onclick="abrirModal('modal-jordan-5'); return false;">Tênis Air Jordan 1 Low
+                            Masculino</a></h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 1.044,99 no Pix</strong>
+                    <del>R$ 1.099,99</del>
+                    <strong>5% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.4</small></p>
+            </article>
+
+            <!-- Card 6 -->
+            <article>
+                <a href="#" onclick="abrirModal('modal-jordan-6'); return false;">
+                    <img src="imgs/jordan/jordan_6.avif" alt="Tênis Air Jordan 1 Retro Low OG Masculino" width="100%">
+                </a>
+
+                <hgroup>
+                    <h3><a href="#" onclick="abrirModal('modal-jordan-6'); return false;">Tênis Air Jordan 1 Retro Low
+                            OG Masculino</a></h3>
+                    <p>Casual</p>
+                </hgroup>
+
+                <p>
+                    <strong>R$ 899,99 no Pix</strong>
+                    <del>R$ 1.299,99</del>
+                    <strong>31% off</strong>
+                </p>
+
+                <p>★★★★★ <small>4.3</small></p>
+            </article>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <dialog id="modal-jordan-1">
+        <article>
+            <header>
+                <button aria-label="Close" rel="prev" onclick="fecharModal('modal-jordan-1')"></button>
+                <h3>Tênis Air Jordan 1 Low Masculino</h3>
+            </header>
+            <div class="grid">
+                <div>
+                    <img src="imgs/jordan/jordan_1.avif" alt="Air Jordan 1 Low Masculino" width="100%">
+                </div>
+                <div>
+                    <p>Inspirado no original de 1985, o Air Jordan 1 Low oferece um visual limpo e clássico que é
+                        familiar, mas sempre atual.</p>
+                    <p><strong>Preço: R$ 1.044,99 no Pix</strong> <del>R$ 1.099,99</del></p>
+
+                    <label for="tam-jordan-1">Selecione o tamanho:</label>
+                    <select id="tam-jordan-1">
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                    </select>
+                    <br><br>
+                    <button onclick="alert('Air Jordan 1 Low Masculino adicionado à sacola!')">Adicionar à
+                        Sacola</button>
+                </div>
+            </div>
+        </article>
+    </dialog>
+
+    <!-- Modal 2 -->
+    <dialog id="modal-jordan-2">
+        <article>
+            <header>
+                <button aria-label="Close" rel="prev" onclick="fecharModal('modal-jordan-2')"></button>
+                <h3>Women's Air Jordan 1 Low</h3>
+            </header>
+            <div class="grid">
+                <div>
+                    <img src="imgs/jordan/jordan_2.avif" alt="Women's Air Jordan 1 Low" width="100%">
+                </div>
+                <div>
+                    <p>Design icônico otimizado para o público feminino, combinando materiais nobres, unidade Air
+                        encapsulada e estilo urbano irrepreensível.</p>
+                    <p><strong>Preço: R$ 799,99 no Pix</strong> <del>R$ 1.099,99</del></p>
+
+                    <label for="tam-jordan-2">Selecione o tamanho:</label>
+                    <select id="tam-jordan-2">
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                    </select>
+                    <br><br>
+                    <button onclick="alert('Women\'s Air Jordan 1 Low adicionado à sacola!')">Adicionar à
+                        Sacola</button>
+                </div>
+            </div>
+        </article>
+    </dialog>
+
+    <!-- Modal 3 -->
+    <dialog id="modal-jordan-3">
+        <article>
+            <header>
+                <button aria-label="Close" rel="prev" onclick="fecharModal('modal-jordan-3')"></button>
+                <h3>Tênis Air Jordan 1 Low Feminino</h3>
+            </header>
+            <div class="grid">
+                <div>
+                    <img src="imgs/jordan/jordan_3.avif" alt="Air Jordan 1 Low Feminino" width="100%">
+                </div>
+                <div>
+                    <p>Uma peça fundamental do legado Jordan com combinação de cores marcantes e conforto duradouro para
+                        qualquer ocasião.</p>
+                    <p><strong>Preço: R$ 1.044,99 no Pix</strong> <del>R$ 1.099,99</del></p>
+
+                    <label for="tam-jordan-3">Selecione o tamanho:</label>
+                    <select id="tam-jordan-3">
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                    </select>
+                    <br><br>
+                    <button onclick="alert('Air Jordan 1 Low Feminino adicionado à sacola!')">Adicionar à
+                        Sacola</button>
+                </div>
+            </div>
+        </article>
+    </dialog>
+
+    <!-- Modal 4 -->
+    <dialog id="modal-jordan-4">
+        <article>
+            <header>
+                <button aria-label="Close" rel="prev" onclick="fecharModal('modal-jordan-4')"></button>
+                <h3>Tênis Air Jordan 1 Low Masculino</h3>
+            </header>
+            <div class="grid">
+                <div>
+                    <img src="imgs/jordan/jordan_4.avif" alt="Air Jordan 1 Low Masculino" width="100%">
+                </div>
+                <div>
+                    <p>Confeccionado em couro de alta durabilidade com solado de borracha resistente e perfil baixo que
+                        garante total liberdade de movimento.</p>
+                    <p><strong>Preço: R$ 1.044,99 no Pix</strong> <del>R$ 1.099,99</del></p>
+
+                    <label for="tam-jordan-4">Selecione o tamanho:</label>
+                    <select id="tam-jordan-4">
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                    </select>
+                    <br><br>
+                    <button onclick="alert('Air Jordan 1 Low Masculino adicionado à sacola!')">Adicionar à
+                        Sacola</button>
+                </div>
+            </div>
+        </article>
+    </dialog>
+
+    <!-- Modal 5 -->
+    <dialog id="modal-jordan-5">
+        <article>
+            <header>
+                <button aria-label="Close" rel="prev" onclick="fecharModal('modal-jordan-5')"></button>
+                <h3>Tênis Air Jordan 1 Low Masculino</h3>
+            </header>
+            <div class="grid">
+                <div>
+                    <img src="imgs/jordan/jordan_5.avif" alt="Air Jordan 1 Low Masculino" width="100%">
+                </div>
+                <div>
+                    <p>Visual atemporal com o icônico logotipo Wings estampado no calcanhar e amortecimento Nike Air
+                        leve na sola.</p>
+                    <p><strong>Preço: R$ 1.044,99 no Pix</strong> <del>R$ 1.099,99</del></p>
+
+                    <label for="tam-jordan-5">Selecione o tamanho:</label>
+                    <select id="tam-jordan-5">
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                    </select>
+                    <br><br>
+                    <button onclick="alert('Air Jordan 1 Low Masculino adicionado à sacola!')">Adicionar à
+                        Sacola</button>
+                </div>
+            </div>
+        </article>
+    </dialog>
+
+    <!-- Modal 6 -->
+    <dialog id="modal-jordan-6">
+        <article>
+            <header>
+                <button aria-label="Close" rel="prev" onclick="fecharModal('modal-jordan-6')"></button>
+                <h3>Tênis Air Jordan 1 Retro Low OG Masculino</h3>
+            </header>
+            <div class="grid">
+                <div>
+                    <img src="imgs/jordan/jordan_6.avif" alt="Air Jordan 1 Retro Low OG Masculino" width="100%">
+                </div>
+                <div>
+                    <p>Edição OG (Original Grid) que recria fielmente a forma, os detalhes e o couro original dos
+                        primeiros modelos lançados pela franquia Jordan.</p>
+                    <p><strong>Preço: R$ 899,99 no Pix</strong> <del>R$ 1.299,99</del></p>
+
+                    <label for="tam-jordan-6">Selecione o tamanho:</label>
+                    <select id="tam-jordan-6">
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                    </select>
+                    <br><br>
+                    <button onclick="alert('Air Jordan 1 Retro Low OG adicionado à sacola!')">Adicionar à
+                        Sacola</button>
+                </div>
+            </div>
+        </article>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
